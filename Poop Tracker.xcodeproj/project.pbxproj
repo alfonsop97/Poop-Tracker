@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99F5FB0C26C4B781004ED568 /* Poop_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5FB0B26C4B781004ED568 /* Poop_TrackerApp.swift */; };
+		99F5FB0E26C4B781004ED568 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5FB0D26C4B781004ED568 /* ContentView.swift */; };
+		99F5FB1026C4B788004ED568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F5FB0F26C4B788004ED568 /* Assets.xcassets */; };
+		99F5FB1326C4B788004ED568 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F5FB1226C4B788004ED568 /* Preview Assets.xcassets */; };
+		99F5FB1E26C4B788004ED568 /* Poop_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5FB1D26C4B788004ED568 /* Poop_TrackerTests.swift */; };
+		99F5FB2926C4B788004ED568 /* Poop_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5FB2826C4B788004ED568 /* Poop_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99F5FB1A26C4B788004ED568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F5FB0026C4B781004ED568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F5FB0726C4B781004ED568;
+			remoteInfo = "Poop Tracker";
+		};
+		99F5FB2526C4B788004ED568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F5FB0026C4B781004ED568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F5FB0726C4B781004ED568;
+			remoteInfo = "Poop Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99F5FB0826C4B781004ED568 /* Poop Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poop Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F5FB0B26C4B781004ED568 /* Poop_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poop_TrackerApp.swift; sourceTree = "<group>"; };
+		99F5FB0D26C4B781004ED568 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99F5FB0F26C4B788004ED568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99F5FB1226C4B788004ED568 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99F5FB1426C4B788004ED568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F5FB1926C4B788004ED568 /* Poop TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poop TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F5FB1D26C4B788004ED568 /* Poop_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poop_TrackerTests.swift; sourceTree = "<group>"; };
+		99F5FB1F26C4B788004ED568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F5FB2426C4B788004ED568 /* Poop TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poop TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F5FB2826C4B788004ED568 /* Poop_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poop_TrackerUITests.swift; sourceTree = "<group>"; };
+		99F5FB2A26C4B788004ED568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F5FB0526C4B781004ED568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5FB1626C4B788004ED568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5FB2126C4B788004ED568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99F5FAFF26C4B781004ED568 = {
+			isa = PBXGroup;
+			children = (
+				99F5FB0A26C4B781004ED568 /* Poop Tracker */,
+				99F5FB1C26C4B788004ED568 /* Poop TrackerTests */,
+				99F5FB2726C4B788004ED568 /* Poop TrackerUITests */,
+				99F5FB0926C4B781004ED568 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99F5FB0926C4B781004ED568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99F5FB0826C4B781004ED568 /* Poop Tracker.app */,
+				99F5FB1926C4B788004ED568 /* Poop TrackerTests.xctest */,
+				99F5FB2426C4B788004ED568 /* Poop TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99F5FB0A26C4B781004ED568 /* Poop Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				99F5FB0B26C4B781004ED568 /* Poop_TrackerApp.swift */,
+				99F5FB0D26C4B781004ED568 /* ContentView.swift */,
+				99F5FB0F26C4B788004ED568 /* Assets.xcassets */,
+				99F5FB1426C4B788004ED568 /* Info.plist */,
+				99F5FB1126C4B788004ED568 /* Preview Content */,
+			);
+			path = "Poop Tracker";
+			sourceTree = "<group>";
+		};
+		99F5FB1126C4B788004ED568 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99F5FB1226C4B788004ED568 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99F5FB1C26C4B788004ED568 /* Poop TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				99F5FB1D26C4B788004ED568 /* Poop_TrackerTests.swift */,
+				99F5FB1F26C4B788004ED568 /* Info.plist */,
+			);
+			path = "Poop TrackerTests";
+			sourceTree = "<group>";
+		};
+		99F5FB2726C4B788004ED568 /* Poop TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99F5FB2826C4B788004ED568 /* Poop_TrackerUITests.swift */,
+				99F5FB2A26C4B788004ED568 /* Info.plist */,
+			);
+			path = "Poop TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99F5FB0726C4B781004ED568 /* Poop Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F5FB2D26C4B788004ED568 /* Build configuration list for PBXNativeTarget "Poop Tracker" */;
+			buildPhases = (
+				99F5FB0426C4B781004ED568 /* Sources */,
+				99F5FB0526C4B781004ED568 /* Frameworks */,
+				99F5FB0626C4B781004ED568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poop Tracker";
+			productName = "Poop Tracker";
+			productReference = 99F5FB0826C4B781004ED568 /* Poop Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99F5FB1826C4B788004ED568 /* Poop TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F5FB3026C4B788004ED568 /* Build configuration list for PBXNativeTarget "Poop TrackerTests" */;
+			buildPhases = (
+				99F5FB1526C4B788004ED568 /* Sources */,
+				99F5FB1626C4B788004ED568 /* Frameworks */,
+				99F5FB1726C4B788004ED568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F5FB1B26C4B788004ED568 /* PBXTargetDependency */,
+			);
+			name = "Poop TrackerTests";
+			productName = "Poop TrackerTests";
+			productReference = 99F5FB1926C4B788004ED568 /* Poop TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99F5FB2326C4B788004ED568 /* Poop TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F5FB3326C4B788004ED568 /* Build configuration list for PBXNativeTarget "Poop TrackerUITests" */;
+			buildPhases = (
+				99F5FB2026C4B788004ED568 /* Sources */,
+				99F5FB2126C4B788004ED568 /* Frameworks */,
+				99F5FB2226C4B788004ED568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F5FB2626C4B788004ED568 /* PBXTargetDependency */,
+			);
+			name = "Poop TrackerUITests";
+			productName = "Poop TrackerUITests";
+			productReference = 99F5FB2426C4B788004ED568 /* Poop TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F5FB0026C4B781004ED568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					99F5FB0726C4B781004ED568 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					99F5FB1826C4B788004ED568 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 99F5FB0726C4B781004ED568;
+					};
+					99F5FB2326C4B788004ED568 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 99F5FB0726C4B781004ED568;
+					};
+				};
+			};
+			buildConfigurationList = 99F5FB0326C4B781004ED568 /* Build configuration list for PBXProject "Poop Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99F5FAFF26C4B781004ED568;
+			productRefGroup = 99F5FB0926C4B781004ED568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99F5FB0726C4B781004ED568 /* Poop Tracker */,
+				99F5FB1826C4B788004ED568 /* Poop TrackerTests */,
+				99F5FB2326C4B788004ED568 /* Poop TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F5FB0626C4B781004ED568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F5FB1326C4B788004ED568 /* Preview Assets.xcassets in Resources */,
+				99F5FB1026C4B788004ED568 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5FB1726C4B788004ED568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5FB2226C4B788004ED568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99F5FB0426C4B781004ED568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F5FB0E26C4B781004ED568 /* ContentView.swift in Sources */,
+				99F5FB0C26C4B781004ED568 /* Poop_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5FB1526C4B788004ED568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F5FB1E26C4B788004ED568 /* Poop_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F5FB2026C4B788004ED568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F5FB2926C4B788004ED568 /* Poop_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99F5FB1B26C4B788004ED568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F5FB0726C4B781004ED568 /* Poop Tracker */;
+			targetProxy = 99F5FB1A26C4B788004ED568 /* PBXContainerItemProxy */;
+		};
+		99F5FB2626C4B788004ED568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F5FB0726C4B781004ED568 /* Poop Tracker */;
+			targetProxy = 99F5FB2526C4B788004ED568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99F5FB2B26C4B788004ED568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99F5FB2C26C4B788004ED568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99F5FB2E26C4B788004ED568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Poop Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Poop Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Poop-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99F5FB2F26C4B788004ED568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Poop Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Poop Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Poop-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99F5FB3126C4B788004ED568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				INFOPLIST_FILE = "Poop TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Poop-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poop Tracker.app/Poop Tracker";
+			};
+			name = Debug;
+		};
+		99F5FB3226C4B788004ED568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				INFOPLIST_FILE = "Poop TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Poop-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poop Tracker.app/Poop Tracker";
+			};
+			name = Release;
+		};
+		99F5FB3426C4B788004ED568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				INFOPLIST_FILE = "Poop TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Poop-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poop Tracker";
+			};
+			name = Debug;
+		};
+		99F5FB3526C4B788004ED568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2X6Z8MDH6;
+				INFOPLIST_FILE = "Poop TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DBLB.Poop-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poop Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99F5FB0326C4B781004ED568 /* Build configuration list for PBXProject "Poop Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F5FB2B26C4B788004ED568 /* Debug */,
+				99F5FB2C26C4B788004ED568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F5FB2D26C4B788004ED568 /* Build configuration list for PBXNativeTarget "Poop Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F5FB2E26C4B788004ED568 /* Debug */,
+				99F5FB2F26C4B788004ED568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F5FB3026C4B788004ED568 /* Build configuration list for PBXNativeTarget "Poop TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F5FB3126C4B788004ED568 /* Debug */,
+				99F5FB3226C4B788004ED568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F5FB3326C4B788004ED568 /* Build configuration list for PBXNativeTarget "Poop TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F5FB3426C4B788004ED568 /* Debug */,
+				99F5FB3526C4B788004ED568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99F5FB0026C4B781004ED568 /* Project object */;
+}
